@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+.Logo {
+    border-radius: 150px;
+    width: 10%;
+}
+
+.botones {
+    border: none;
+    background-color: linen;
+    padding: 1px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.boton {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 100px;
+    border: none;
+    background-color: linen;
+    border-radius: 8px;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: mistyrose;
+}
+
+.grilla {
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.grilla .imagen {
+    width: 50%;
+    height: 50%;
+    color:rgb(39, 43, 42);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imagen {
+    width: 50%;
+    height: 50%;
+}
